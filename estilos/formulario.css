@@ -1,0 +1,77 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: url(../imagenes/wallpapers-negros-9-1440x900.jpg);
+	background-repeat: no-repeat;
+	background-size: 1380px;
+}
+
+.img{
+	float: right;
+	width: 340px;
+	height: 380px;
+	margin-right: 270px;
+	margin-top: -420px;
+	text-align: center;
+	border: solid 2px;
+	
+}
+
+.sub{
+	width: 200px;
+	margin-top: -10px;
+}
+
+.datos1{
+	width: 310px;
+	height: 480px;
+	margin-left: 60px;
+	margin-top: 20px;
+	background:rgba(223,230,237,0.2);
+	border: solid  1px  white;
+}
+
+.datos2{
+	width: 310px;
+	height: 480px;
+	margin-left: 400px;
+	margin-top: -480px;
+	background:rgba(223,230,237,0.2);
+	border: solid  1px  white;
+}
+
+h1{
+	font-size: 20px;
+	color: #DFD7E7;
+}
+
+.frm{
+	font-size: 100px;
+	font-family: arial;
+	margin-left: 150px;
+	margin-top: 10px;
+}
+
+.mover-select{
+	margin-left: 10px;
+	width: 250px;
+}
+
+.mover-h1{
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.mover_primer_h1{
+	margin-top: 7px;
+	margin-left: 10px;
+}
+
+.mover-input{
+	margin-left: 10px;
+	width: 250px;
+}
+

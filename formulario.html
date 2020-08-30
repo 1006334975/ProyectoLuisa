@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulario</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="estilos/formulario.css">
+	
+</head>
+
+<body>
+	
+<form action="controller/formulario.php" method="POST"  name="frm" >
+		
+	<div class="datos1" >
+
+		<h1 class="mover_primer_h1" >Ingrese su nombre</h1>
+		<input class="form-control mover-input" type="text" name="nombre" placeholder="Ingrese su nombre" required=""
+		maxlength="30" minlength="1" > 
+
+		<h1 class="mover-h1" >Ingrese su apellido</h1>
+		<input class="form-control mover-input" type="text" name="apellido" placeholder="Ingrese su apellido" required="" maxlength="30" minlength="1"> 
+
+		<h1 class="mover-h1" >Ingrese su CC</h1>
+		<input class="form-control mover-input" type="text" name="cc" placeholder="Ingrese su CC" required=""
+		maxlength="10" minlength="10">
+
+		<h1 class="mover-h1">Ciudad</h1>
+		<select class="mover-select custom-select " name="ciudad" id="" required="">
+			<option value="Alcala">Alcala</option>
+			<option value="Pereira">Pereira</option>
+			<option value="Armenia">Armenia</option>
+			<option value="Cali">Cali</option>
+		</select>
+		
+
+		<h1 class="mover-h1">Genero</h1>
+		<select class="mover-select custom-select " name="genero" id="" required="">
+			<option value=""></option>
+			<option value="Masculino">Hombre</option>
+			<option value="Femenino">Mujer</option>
+		</select>
+
+	</div>
+
+	<div class="datos2" >
+
+		<h1 class="mover_primer_h1" >Ingrese su nombre de usuario</h1>
+		<input class="form-control mover-input" type="text" name="fusuario" placeholder="Ingrese su nombre de usuario" required="" >
+
+		<h1 class="mover-h1">Ingrese su contraseña</h1>
+		<input class="form-control mover-input" type="password" name="contra" placeholder="Ingrese su contraseña" required=""> 
+
+		<h1 class="mover-h1">Ingrese de nuevo su contraseña</h1>
+		<input class="form-control mover-input " type="password" name="vericontra" placeholder="Ingrese de nuevo su contraseña" required="" > 
+
+		<h1 class="mover-h1">Ingrese su correo eletronico</h1>
+		<input class="form-control mover-input" type="email" name="correo" placeholder="Ingrese su Correo eletronico" required="" maxlength="30"  > 
+
+		<h1 class="mover-h1">Tipo de sangre</h1>
+		<select class="mover-select custom-select " name="psangre" id="" required="">
+			<option value=""></option>
+			<option value="Tipo A">Tipo A</option>
+			<option value="Tipo B">Tipo B</option>
+			<option value="Tipo AB">Tipo AB</option>
+			<option value="Tipo O">Tipo O</option>
+		</select>
+
+	</div>
+
+	<div class="img" >
+		<img src="imagenes/formar.png" width="340" height="340"  alt="">
+		<input class="btn btn-dark sub " type="submit" value="Registrarse">
+	</div>
+
+</form>
+
+	<h1 class="frm" >Formulario</h1>
+
+		
+
+	<script type="javascript" src="js/bootstrap.min.js"></script>
+	<script type="javascript" src="js/jquery.js"></script>
+
+
+
+</body>
+</html>
